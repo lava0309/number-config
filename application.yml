@@ -6,4 +6,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: https://predix-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka
