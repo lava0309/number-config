@@ -6,5 +6,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://predix-eureka-server.run.aws-usw02-pr.ice.predix.io/eureka
-      # ${vcap.services.p-service-registry.credentials.url}/eureka
+      defaultZone: ${vcap.services.p-service-registry.credentials.url}/eureka
